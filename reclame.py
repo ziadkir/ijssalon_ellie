@@ -37,6 +37,8 @@ print(gemiddelde(1))
 
 def meervoudig(invoer_lijst):
     x = laag_en_hoog(invoer_lijst)
+    # In de opdracht staat gebruik de functie hoog_en_laag(),""
+    # Ben er van uit gegaan dat dit de functie laag_en_hoog()"" uit de voorgaande' opdracht is.
     y = len(x)
     k = [10,5,3,2,1,2,9,y]
     max_w = max(k)
@@ -45,19 +47,20 @@ def meervoudig(invoer_lijst):
 
     return waarde_lijst
 
-# In de opdracht staat gebruik de functie hoog_en_laag(),""
-# Ben er van uit gegaan dat dit de functie laag_en_hoog()"" uit de voorgaande' opdracht is.
+
 print(meervoudig(1))
 
 def combinatie(invoer_lijst_2):
     meervoudig(invoer_lijst_2)
     return meervoudig(invoer_lijst_2)
+
+print(combinatie(1))
     
-
-
+    
 korte_lijst = combinatie(1)
 
 print(mijn_functie_2(korte_lijst[0],korte_lijst[1]))
+
 
 
 
