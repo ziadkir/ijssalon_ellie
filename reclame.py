@@ -35,18 +35,22 @@ def gemiddelde(mijn_lijst):
 
 print(gemiddelde(1))
 
-def meervoudig(invoer_lijst):
-    x = laag_en_hoog(invoer_lijst)
+#def meervoudig(invoer_lijst):
+   # x = laag_en_hoog(invoer_lijst)
     # In de opdracht staat gebruik de functie hoog_en_laag(),""
     # Ben er van uit gegaan dat dit de functie laag_en_hoog()"" uit de voorgaande' opdracht is.
-    y = len(x)
-    k = [10,5,3,2,1,2,9,y]
-    max_w = max(k)
-    min_w = min(k)
-    waarde_lijst = [max_w , min_w]
+  ##  y = len(x)
+   # k = [10,5,3,2,1,2,9,y]
+   # max_w = max(k)
+   # min_w = min(k)
+   # waarde_lijst = [max_w , min_w]
 
-    return waarde_lijst
+   # return waarde_lijst
 
+def meervoudig(invoer_lijst):
+    tijdelijk = laag_en_hoog(invoer_lijst)
+    uitvoer = [tijdelijk[0],tijdelijk[1]]
+    return uitvoer
 
 print(meervoudig(1))
 
